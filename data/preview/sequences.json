@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Stairs_MultiFloor_Loop",
+    "ply_path": "pointclouds/Stairs_MultiFloor_Loop.ply",
+    "trajectory_path": "pointclouds/Stairs_MultiFloor_Loop_trajectory.json"
+  },
+  {
+    "name": "LargeHall Night Half Path",
+    "ply_path": "pointclouds/LargeHall Night Half Path.ply",
+    "trajectory_path": "pointclouds/LargeHall Night Half Path_trajectory.json"
+  },
+  {
+    "name": "Basement_Ascent_Path",
+    "ply_path": "pointclouds/Basement_Ascent_Path.ply",
+    "trajectory_path": "pointclouds/Basement_Ascent_Path_trajectory.json"
+  },
+  {
+    "name": "LowLight_Short_Loop",
+    "ply_path": "pointclouds/LowLight_Short_Loop.ply",
+    "trajectory_path": "pointclouds/LowLight_Short_Loop_trajectory.json"
+  },
+  {
+    "name": "Office_Loop",
+    "ply_path": "pointclouds/Office_Loop.ply",
+    "trajectory_path": "pointclouds/Office_Loop_trajectory.json"
+  },
+  {
+    "name": "LargeHall Night Short Loop",
+    "ply_path": "pointclouds/LargeHall Night Short Loop.ply",
+    "trajectory_path": "pointclouds/LargeHall Night Short Loop_trajectory.json"
+  },
+  {
+    "name": "LargeHall E1 Loop",
+    "ply_path": "pointclouds/LargeHall E1 Loop.ply",
+    "trajectory_path": "pointclouds/LargeHall E1 Loop_trajectory.json"
+  },
+  {
+    "name": "Parking_B2_Loop",
+    "ply_path": "pointclouds/Parking_B2_Loop.ply",
+    "trajectory_path": "pointclouds/Parking_B2_Loop_trajectory.json"
+  },
+  {
+    "name": "Library MultiFloor Descent Loop",
+    "ply_path": "pointclouds/Library MultiFloor Descent Loop.ply",
+    "trajectory_path": "pointclouds/Library MultiFloor Descent Loop_trajectory.json"
+  },
+  {
+    "name": "Stairs Repetitive Vertical",
+    "ply_path": "pointclouds/Stairs Repetitive Vertical.ply",
+    "trajectory_path": "pointclouds/Stairs Repetitive Vertical_trajectory.json"
+  },
+  {
+    "name": "Lab_Room_Spin",
+    "ply_path": "pointclouds/Lab_Room_Spin.ply",
+    "trajectory_path": "pointclouds/Lab_Room_Spin_trajectory.json"
+  },
+  {
+    "name": "Library Spin ",
+    "ply_path": "pointclouds/Library Spin .ply",
+    "trajectory_path": "pointclouds/Library Spin _trajectory.json"
+  },
+  {
+    "name": "Large_Hall_Full_Loop",
+    "ply_path": "pointclouds/Large_Hall_Full_Loop.ply",
+    "trajectory_path": "pointclouds/Large_Hall_Full_Loop_trajectory.json"
+  },
+  {
+    "name": "Library3F GlassRoom Spin",
+    "ply_path": "pointclouds/Library3F GlassRoom Spin.ply",
+    "trajectory_path": "pointclouds/Library3F GlassRoom Spin_trajectory.json"
+  },
+  {
+    "name": "Station_Escalator_Path",
+    "ply_path": "pointclouds/Station_Escalator_Path.ply",
+    "trajectory_path": "pointclouds/Station_Escalator_Path_trajectory.json"
+  },
+  {
+    "name": "Lounge_Loop",
+    "ply_path": "pointclouds/Lounge_Loop.ply",
+    "trajectory_path": "pointclouds/Lounge_Loop_trajectory.json"
+  },
+  {
+    "name": "Library Atrium",
+    "ply_path": "pointclouds/Library Atrium.ply",
+    "trajectory_path": "pointclouds/Library Atrium_trajectory.json"
+  },
+  {
+    "name": "Library_4F_Loop",
+    "ply_path": "pointclouds/Library_4F_Loop.ply",
+    "trajectory_path": "pointclouds/Library_4F_Loop_trajectory.json"
+  },
+  {
+    "name": "HotelRoom_Loop",
+    "ply_path": "pointclouds/HotelRoom_Loop.ply",
+    "trajectory_path": "pointclouds/HotelRoom_Loop_trajectory.json"
+  },
+  {
+    "name": "Lobby Loop",
+    "ply_path": "pointclouds/Lobby Loop.ply",
+    "trajectory_path": "pointclouds/Lobby Loop_trajectory.json"
+  },
+  {
+    "name": "Library_5F_Survey",
+    "ply_path": "pointclouds/Library_5F_Survey.ply",
+    "trajectory_path": "pointclouds/Library_5F_Survey_trajectory.json"
+  },
+  {
+    "name": "ParkingArea_Loop",
+    "ply_path": "pointclouds/ParkingArea_Loop.ply",
+    "trajectory_path": "pointclouds/ParkingArea_Loop_trajectory.json"
+  },
+  {
+    "name": "Library Aisles Path ",
+    "ply_path": "pointclouds/Library Aisles Path .ply",
+    "trajectory_path": "pointclouds/Library Aisles Path _trajectory.json"
+  },
+  {
+    "name": "Library_3F_Loop",
+    "ply_path": "pointclouds/Library_3F_Loop.ply",
+    "trajectory_path": "pointclouds/Library_3F_Loop_trajectory.json"
+  },
+  {
+    "name": "Library 1F Survey ",
+    "ply_path": "pointclouds/Library 1F Survey .ply",
+    "trajectory_path": "pointclouds/Library 1F Survey _trajectory.json"
+  }
+]
