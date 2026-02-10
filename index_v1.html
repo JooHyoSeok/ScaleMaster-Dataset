@@ -315,11 +315,11 @@
             font-weight: 600;
             transition: all 0.3s;
         }
-
+        
         .toggle-btn:hover {
             background: #5568d3;
         }
-
+        
         .close-btn {
             background: #ff4757;
             color: white;
@@ -515,20 +515,18 @@
 <body>
     <header>
         <div class="award-badge">
-            🏆 ICRA 2026 Accpeted
+            🏆 ICRA 2026 Dataset Submission
         </div>
         
         <h1>ScaleMaster Dataset</h1>
         <p class="subtitle">Multi-Scale Point Cloud Dataset for Indoor Scene Understanding and SLAM</p>
         
         <div class="authors">
-            <a href="#">Hyoseok Ju</a><sup>1*</sup>,
-            <a href="#">Bokeon Suh</a><sup>1</sup>,
-            <a href="#">Giseop Kim</a><sup>1†</sup>
+            <a href="#">HyoSeok Joo</a><sup>1</sup>
         </div>
         
         <div class="affiliations">
-            <div><sup>1</sup>Autonomy and Perceptual Robotics Lab (APRL)</div>
+            <div><sup>1</sup>Autonomous Perception Research Lab (APRL)</div>
         </div>
         
         <div class="button-group">
@@ -584,7 +582,7 @@
         <section class="section">
             <h2>Dataset Sequences</h2>
             <p style="text-align: center; color: #666; margin-bottom: 30px;">
-                Click on any sequence to explore in 3D
+                Click on any sequence to explore in 3D with camera trajectory
             </p>
 
             <!-- Library -->
@@ -956,7 +954,7 @@ git clone https://huggingface.co/datasets/hyoseoki/scalemaster-dataset</code></p
 
         function loadTrajectory(sequenceName) {
             const jsonPath = `data/preview/${sequenceName}_trajectory.json`;
-
+            
             fetch(jsonPath)
                 .then(response => response.json())
                 .then(data => {
@@ -976,9 +974,9 @@ git clone https://huggingface.co/datasets/hyoseoki/scalemaster-dataset</code></p
                     // Create trajectory line
                     const points = data.map(pos => new THREE.Vector3(pos[0], pos[1], pos[2]));
                     const geometry = new THREE.BufferGeometry().setFromPoints(points);
-                    const material = new THREE.LineBasicMaterial({
-                        color: 0xff0000,
-                        linewidth: 3
+                    const material = new THREE.LineBasicMaterial({ 
+                        color: 0xff0000, 
+                        linewidth: 3 
                     });
                     trajectoryLine = new THREE.Line(geometry, material);
                     scene.add(trajectoryLine);
@@ -1078,7 +1076,7 @@ git clone https://huggingface.co/datasets/hyoseoki/scalemaster-dataset</code></p
 
         window.toggleTrajectory = function() {
             trajectoryVisible = !trajectoryVisible;
-
+            
             if (trajectoryLine) {
                 trajectoryLine.visible = trajectoryVisible;
             }
@@ -1086,7 +1084,7 @@ git clone https://huggingface.co/datasets/hyoseoki/scalemaster-dataset</code></p
                 marker.visible = trajectoryVisible;
             });
 
-            document.getElementById('toggleTrajectory').textContent =
+            document.getElementById('toggleTrajectory').textContent = 
                 trajectoryVisible ? '🎯 Hide Trajectory' : '🎯 Show Trajectory';
         };
 
