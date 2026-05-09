@@ -102,8 +102,6 @@ Data collected using a custom handheld rig:
 
 Raw ARKit trajectories are refined through a 5-stage pipeline:
 
-![Pipeline](assets/Fig4.png)
-
 1. **ARKit VIO** — 6-DoF poses from Apple ARKit
 2. **HLoc loop closure** — NetVLAD retrieval + SuperPoint/LightGlue geometric verification
 3. **Manual verification** — interactive accept/reject of loop closure candidates
@@ -111,6 +109,12 @@ Raw ARKit trajectories are refined through a 5-stage pipeline:
 5. **GTSAM PGO** — pose graph optimization over odometry and loop closure edges
 
 The refined trajectory is provided as `optimized_odometry.csv`.
+
+## 🧪 Experimental Pipeline
+
+<img src="assets/Fig4.png" width="100%">
+
+*Fig. 4 — Overall experimental pipeline: data acquisition with our custom rig (left), LiDAR reference map generation and SLAM processing (center), and map-to-map error calculation (right).*
 
 ---
 
@@ -155,11 +159,22 @@ Available for 7 sequences: `Basement_01`, `LargeHall_02`, `LargeHall_05`, `Libra
 
 ## 📈 Qualitative Results
 
-Scale inconsistency failures revealed by the ScaleMaster benchmark:
+Scale inconsistency failures revealed by the ScaleMaster benchmark (MASt3R-SLAM):
 
-![Qualitative](assets/Fig5.png)
+<img src="assets/Fig5.png" width="60%">
 
-*Fig. 5 — (a) LiDAR reference map of Library_01. (b) MASt3R-SLAM reconstruction. (c) Aligned overlay. (d) Distance error map — warmer colors indicate larger geometric inconsistencies.*
+*Fig. 5 — (a) LiDAR reference map of Library_06. (b) MASt3R-SLAM reconstruction. (c) Aligned overlay. (d) Distance error map — warmer colors indicate larger geometric inconsistencies.*
+
+**Table V. 3D Reconstruction Quality of MASt3R-SLAM**
+
+| Sequence | Threshold (m) | Chamfer Distance (m) | Drop Rate (%) | Analysis |
+|----------|:---:|:---:|:---:|---|
+| Library_01 | 1 | 0.36 | 42.5 | Severe Failure |
+| | 10 | 6.43 | 0.9 | Significant map distortion |
+| Library_06 | 1 | 0.08 | 1.1 | ✅ Success |
+| | 10 | 0.10 | 0.0 | High-fidelity reconstruction |
+| Library_07 | 1 | 0.52 | 89.1 | Catastrophic Failure |
+| | 10 | 9.99 | 0.0 | Near-total map collapse |
 
 ---
 
