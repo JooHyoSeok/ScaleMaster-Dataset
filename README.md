@@ -1,12 +1,22 @@
+<div align="center">
+
 # ScaleMaster Dataset
 
 ### Have We Mastered Scale in Deep Monocular Visual SLAM?
 
-[![Project Page](https://img.shields.io/badge/Project_Page-blue?style=flat-square)](https://scalemaster-dataset.github.io)
-[![Paper](https://img.shields.io/badge/Paper-red?style=flat-square)](https://scalemaster-dataset.github.io/aprl_icra26_hsju.pdf)
-[![Download Dataset](https://img.shields.io/badge/Download_Dataset-green?style=flat-square)](https://forms.gle/C7jjz3hiT5JHppJ87)
+<br>
 
-[Hyoseok Ju](https://scholar.google.com/citations?user=aYXHS9oAAAAJ&hl=ko), [Bokeon Suh](https://scholar.google.com/citations?user=ZawXymQAAAAJ&hl=ko), and [Giseop Kim](https://scholar.google.com/citations?hl=ko&user=9mKOLX8AAAAJ&view_op=list_works&sortby=pubdate) — DGIST, Republic of Korea
+[Project Page](https://scalemaster-dataset.github.io) &nbsp;·&nbsp; [Paper](https://scalemaster-dataset.github.io/aprl_icra26_hsju.pdf) &nbsp;·&nbsp; [Download Dataset](https://forms.gle/C7jjz3hiT5JHppJ87)
+
+<br>
+
+[Hyoseok Ju](https://scholar.google.com/citations?user=aYXHS9oAAAAJ&hl=ko) &nbsp;&nbsp; [Bokeon Suh](https://scholar.google.com/citations?user=ZawXymQAAAAJ&hl=ko) &nbsp;&nbsp; [Giseop Kim](https://scholar.google.com/citations?hl=ko&user=9mKOLX8AAAAJ&view_op=list_works&sortby=pubdate)
+
+DGIST, Republic of Korea &nbsp;·&nbsp; ICRA 2026
+
+<br>
+
+</div>
 
 ---
 
