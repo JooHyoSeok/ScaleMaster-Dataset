@@ -6,7 +6,7 @@
 
 <br>
 
-[Project Page](https://scalemaster-dataset.github.io) &nbsp;·&nbsp; [Paper](https://scalemaster-dataset.github.io/aprl_icra26_hsju.pdf) &nbsp;·&nbsp; [Download Dataset](https://forms.gle/C7jjz3hiT5JHppJ87)
+[![Project Page](https://img.shields.io/badge/Project_Page-blue?style=flat-square)](https://scalemaster-dataset.github.io) &nbsp; [![Paper](https://img.shields.io/badge/Paper-red?style=flat-square)](https://scalemaster-dataset.github.io/aprl_icra26_hsju.pdf) &nbsp; [![Download Dataset](https://img.shields.io/badge/Download_Dataset-green?style=flat-square)](https://forms.gle/C7jjz3hiT5JHppJ87)
 
 <br>
 
