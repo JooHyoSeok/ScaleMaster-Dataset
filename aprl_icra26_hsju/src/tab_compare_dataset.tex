@@ -1,0 +1,16 @@
+\begin{table*}[!t]
+\centering
+\caption{\textbf{Comparison of public benchmark datasets with ours.}}
+\resizebox{0.85\textwidth}{!}{%
+\begin{tabular}{c|ccc|cccc}
+\midrule
+\textbf{Dataset} & \textbf{Sequences} & \textbf{\begin{tabular}[c]{@{}c@{}}Avg. \\ Length\end{tabular}} & \textbf{Image Resolution} & \textbf{\begin{tabular}[c]{@{}c@{}}Multi-floor \& \\ Elevation\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Pure \\ Rotation\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Complex \\ Indoor\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Scale Study \\ Feasibility\end{tabular}} \\ \midrule
+\textbf{EuRoC} & 11 & 81.2 m & $752 \times 480$ & $\triangle$ & X & X & X \\
+\textbf{TUM-RGBD} & $\sim$39 & 12.2 m & $640 \times 480$ & X & X & X & X \\
+\textbf{7-Scenes} & 7 & 64.3 m & $640 \times 480$ & X & X & X & X \\
+\textbf{ARKitScenes} & \textgreater 5,000 & \textless 100 m & $1920 \times 1440$ & X & O & X & X \\ \midrule
+\textbf{Ours (ScaleMaster dataset)} & 25 & 152.2 m & $1920 \times 1440$ & O & O & O & O \\ \midrule
+\end{tabular}
+}
+\label{dataset_comparison}
+\end{table*}

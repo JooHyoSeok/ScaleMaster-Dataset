@@ -1,0 +1,111 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out if you need a4paper	
+
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4 paper
+
+\IEEEoverridecommandlockouts                              % This command is only needed if 
+                                                          % you want to use the \thanks command
+
+\overrideIEEEmargins                                      % Needed to meet printer requirements.
+
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+
+% The following packages can be found on http:\\www.ctan.org
+\usepackage{graphicx} % for pdf, bitmapped graphics files
+\usepackage{amsmath} % assumes amsmath package installed
+\usepackage{amssymb}  % assumes amsmath package installed
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{subfigure}
+\usepackage{tabularx}
+
+% natbib hack
+% http://newsgroups.derkeiler.com/Archive/Comp/comp.text.tex/2006-02/msg00834.html
+\makeatletter
+\let\NAT@parse\undefined
+\makeatother
+\usepackage[numbers]{natbib}
+\usepackage{siunitx}
+\usepackage{makecell} 
+
+% IRAP default packages
+\usepackage{aprl_acronyms}
+\usepackage{aprl_misc}
+\usepackage{multirow}
+
+%\usepackage{comment} 
+%\usepackage{kotex}
+
+% for highlighting
+\usepackage{soul,color}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{
+Towards Scale-consistent Deep Monocular Visual SLAM \\
+in Indoor Environments: A Dataset and Benchmark
+}
+% large-scale indoor mapping }
+\author{Hyoseok Ju$^{1}$ and Giseop Kim$^{1*}$%
+\thanks{$^{1}$H. Ju and G. Kim are with the Department of Robotics and Mechatronics Engineering, DGIST, Daegu, Republic of Korea {\tt\small [hyoseok.ju, gsk]@dgist.ac.kr}}%
+}
+% \thanks{$^{\dagger}$This work was supported in ...\hl{TODO}}%
+
+% �� 대체 제목 후보 (Visual EARS 활용)
+% Visual EARS: Visually Embedded Audio–Robotic Sensing for Noisy Environments
+% → 정석 버전, 풀네임 확실히.
+% Visual EARS: Noise-Robust Cross-Modal Audio–Image Matching
+% → 지금 원래 제목의 핵심어를 그대로 가져와 압축.
+% Visual EARS: Enhancing Audio Perception with Visual Context in Robots
+% → “소리를 시각으로 보완한다”는 아이디어를 직관적으로.
+% Visual EARS: Toward Noise-Resilient Audio–Visual Navigation
+% → navigation을 메인 기여로 드러낼 때.
+% Visual EARS: A Framework for Cross-Modal Perception in Noisy Robotic Environments
+% → 조금 더 포괄적이고 학술적인 톤.
+% \usepackage{hyperref}
+\usepackage[colorlinks=true, citecolor=blue, linkcolor=cyan, urlcolor=magenta]{hyperref}
+\usepackage[font=small,labelfont=bf,labelsep=period]{caption}
+\setlength{\abovecaptionskip}{10pt}
+\setlength{\belowcaptionskip}{0pt}
+\usepackage{threeparttable}
+% \usepackage{float}
+\usepackage[percent]{overpic}
+\usepackage{dblfloatfix}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{src/abstract.tex}
+\input{src/introduction.tex}
+\input{src/related_works.tex}
+\input{src/problem_definition}
+\input{src/dataset}
+\input{src/Experimental_Evaluation}
+%\input{results.tex}
+\input{src/conclusion.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section*{APPENDIX}
+
+%Appendixes should appear before the acknowledgment.
+
+%\bibliographystyle{plainnat}
+% \bibliographystyle{unsrt}
+% \bibliography{string-short,ref}
+% \bibliography{ref}
+
+\bibliographystyle{unsrt}
+{\small
+\bibliography{ref}
+}
+
+
+
+\end{document}

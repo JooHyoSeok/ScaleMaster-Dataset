@@ -2,10 +2,10 @@
 
 ### Have We Mastered Scale in Deep Monocular Visual SLAM?
 
-[![Project Page](https://img.shields.io/badge/Project_Page-scalemaster--dataset.github.io-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://scalemaster-dataset.github.io)
-[![Paper](https://img.shields.io/badge/Paper-ICRA_2026-B31B1B?style=flat-square&logo=readthedocs&logoColor=white)](https://scalemaster-dataset.github.io/aprl_icra26_hsju.pdf)
-[![Download Dataset](https://img.shields.io/badge/Download_Dataset-Google_Form-34A853?style=flat-square&logo=google&logoColor=white)](https://forms.gle/C7jjz3hiT5JHppJ87)
-[![License](https://img.shields.io/badge/License-Non--Commercial-FFB300?style=flat-square)](https://forms.gle/C7jjz3hiT5JHppJ87)
+[![Project Page](https://img.shields.io/badge/Project_Page-blue?style=flat-square)](https://scalemaster-dataset.github.io)
+[![Paper](https://img.shields.io/badge/Paper-red?style=flat-square)](https://scalemaster-dataset.github.io/aprl_icra26_hsju.pdf)
+[![Download Dataset](https://img.shields.io/badge/Download_Dataset-green?style=flat-square)](https://forms.gle/C7jjz3hiT5JHppJ87)
+[![License](https://img.shields.io/badge/License-Non--Commercial-yellow?style=flat-square)](#)
 
 Hyoseok Ju, Bokeon Suh, and Giseop Kim — DGIST, Republic of Korea
 
@@ -27,7 +27,7 @@ Recent advances in deep monocular visual SLAM have achieved impressive accuracy 
 | ARKitScenes | >5,000 | <100 m | 1920×1440 | ✗ | ○ | ✓ | ✗ |
 | **ScaleMaster (Ours)** | **25** | **152.2 m** | **1920×1440** | **✓** | **✓** | **✓** | **✓** |
 
-![Scale Comparison](assets/fig3_scale_comparison.png)
+![Scale Comparison](assets/Fig3.png)
 *Fig. 3 — ScaleMaster trajectories are orders of magnitude larger than existing benchmarks, exposing long-term scale inconsistency that room-scale datasets cannot reveal.*
 
 ---
@@ -102,7 +102,7 @@ Data collected using a custom handheld rig:
 
 Raw ARKit trajectories are refined through a 5-stage pipeline:
 
-![Pipeline](assets/fig4_pipeline.png)
+![Pipeline](assets/Fig4.png)
 
 1. **ARKit VIO** — 6-DoF poses from Apple ARKit
 2. **HLoc loop closure** — NetVLAD retrieval + SuperPoint/LightGlue geometric verification
@@ -157,17 +157,15 @@ Available for 7 sequences: `Basement_01`, `LargeHall_02`, `LargeHall_05`, `Libra
 
 Scale inconsistency failures revealed by the ScaleMaster benchmark:
 
-![Qualitative](assets/fig5_qualitative.png)
+![Qualitative](assets/Fig5.png)
 
-*Fig. 5 — Left: LiDAR reference map of Library_06. Right: MASt3R-SLAM reconstruction aligned to the reference. The distance error map (warmer = larger error) reveals geometric inconsistencies invisible to trajectory-only metrics.*
+*Fig. 5 — (a) LiDAR reference map of Library_01. (b) MASt3R-SLAM reconstruction. (c) Aligned overlay. (d) Distance error map — warmer colors indicate larger geometric inconsistencies.*
 
 ---
 
 ## ⬇️ Download
 
-Access is provided upon request:
-
-[![Download Dataset](https://img.shields.io/badge/Download_Dataset-Google_Form-34A853?style=for-the-badge&logo=google&logoColor=white)](https://forms.gle/C7jjz3hiT5JHppJ87)
+Access is provided upon request: [Google Form](https://forms.gle/C7jjz3hiT5JHppJ87)
 
 ---
 
@@ -183,8 +181,3 @@ Access is provided upon request:
 }
 ```
 
----
-
-## 📜 License
-
-This dataset is released for non-commercial research use only.

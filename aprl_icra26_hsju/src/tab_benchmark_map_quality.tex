@@ -1,0 +1,32 @@
+\begin{table}[t]
+\centering
+\caption{3D Reconstruction Quality of MASt3R-SLAM}
+\label{table:recon_quality}
+\resizebox{1.0\columnwidth}{!}{%
+\begin{tabular}{l|cccc}
+\hline
+\toprule
+\makecell{\textbf{Sequence}\\\textbf{Name}} & 
+\makecell{\textbf{Threshold} } & 
+\makecell{\textbf{Chamfer}\\\textbf{Distance(m)}} & 
+\makecell{\textbf{Drop}\\ \textbf{Rate}(\%)} & 
+\textbf{Analysis} \\
+\midrule
+\multirow{2}{*}{\makecell[l]{\textbf{Library\_01}}}
+  & 1  & 0.36 & 42.5 & \textbf{Severe Failure} \\
+  & 10 & \textbf{6.43} & 0.9 & Significant map distortion. \\
+\hline
+\multirow{2}{*}{\textbf{Library\_06}} 
+  & 1  & 0.08 & 1.1 & \textbf{Success} \\
+  & 10 & \textbf{0.10} & 0.0 & High-fidelity reconstruction. \\
+\hline
+\multirow{2}{*}{\textbf{Library\_07}} 
+  & 1  & 0.52 & \textbf{89.1} & \textbf{Catastrophic Failure} \\
+  & 10 & \textbf{9.99} & 0.0 & Near-total map collapse. \\
+  
+\bottomrule
+\hline
+\end{tabular}}
+% \vspace{-3mm}
+\label{map_qual}
+\end{table}
