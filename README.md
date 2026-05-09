@@ -7,7 +7,7 @@
 [![Download Dataset](https://img.shields.io/badge/Download_Dataset-green?style=flat-square)](https://forms.gle/C7jjz3hiT5JHppJ87)
 [![License](https://img.shields.io/badge/License-Non--Commercial-yellow?style=flat-square)](#)
 
-Hyoseok Ju, Bokeon Suh, and Giseop Kim — DGIST, Republic of Korea
+[Hyoseok Ju](https://scholar.google.com/citations?user=aYXHS9oAAAAJ&hl=ko), [Bokeon Suh](https://scholar.google.com/citations?user=ZawXymQAAAAJ&hl=ko), and [Giseop Kim](https://scholar.google.com/citations?hl=ko&user=9mKOLX8AAAAJ&view_op=list_works&sortby=pubdate) — DGIST, Republic of Korea
 
 ---
 
