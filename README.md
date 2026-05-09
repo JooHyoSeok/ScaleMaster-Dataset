@@ -204,7 +204,7 @@ Available for 7 sequences: `Basement_01`, `LargeHall_02`, `LargeHall_05`, `Libra
 
 ## 🎬 Map Quality Evaluation Demo
 
-https://github.com/JooHyoSeok/ScaleMaster-Dataset/raw/main/assets/map_eval.mp4
+https://github.com/user-attachments/assets/6af841a1-30f4-476b-960a-1cb375828e75
 
 *Map quality evaluation GUI: SLAM reconstruction (jet colormap, blue=accurate → red=error) overlaid on LiDAR reference map (grey).*
 
