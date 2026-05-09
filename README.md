@@ -5,7 +5,6 @@
 [![Project Page](https://img.shields.io/badge/Project_Page-blue?style=flat-square)](https://scalemaster-dataset.github.io)
 [![Paper](https://img.shields.io/badge/Paper-red?style=flat-square)](https://scalemaster-dataset.github.io/aprl_icra26_hsju.pdf)
 [![Download Dataset](https://img.shields.io/badge/Download_Dataset-green?style=flat-square)](https://forms.gle/C7jjz3hiT5JHppJ87)
-[![License](https://img.shields.io/badge/License-Non--Commercial-yellow?style=flat-square)](#)
 
 [Hyoseok Ju](https://scholar.google.com/citations?user=aYXHS9oAAAAJ&hl=ko), [Bokeon Suh](https://scholar.google.com/citations?user=ZawXymQAAAAJ&hl=ko), and [Giseop Kim](https://scholar.google.com/citations?hl=ko&user=9mKOLX8AAAAJ&view_op=list_works&sortby=pubdate) — DGIST, Republic of Korea
 
@@ -154,6 +153,42 @@ Linear acceleration in m/s²; angular velocity in rad/s.
 ### LiDAR reference maps (`.pcd`)
 
 Available for 7 sequences: `Basement_01`, `LargeHall_02`, `LargeHall_05`, `Library_01`, `Library_02`, `Library_06`, `Library_07`
+
+---
+
+## 📊 Benchmark Results
+
+**Table IV. Absolute Trajectory Error (ATE, m) on ScaleMaster Dataset**
+
+| Sequence | DROID-SLAM | VGGT-SLAM | MASt3R-SLAM | MASt3R-SLAM* |
+|----------|:---:|:---:|:---:|:---:|
+| Basement_01 | **0.08** | 1.44 | 0.38 | 0.42 |
+| HotelRoom_01 | 0.05 | – | 0.10 | **0.06** |
+| Lab_01 | 0.36 | – | 0.36 | **0.09** |
+| LargeHall_01 | 89.35 | – | **80.54** | 91.62 |
+| LargeHall_02 | **3.78** | 21.69 | 6.12 | 5.89 |
+| LargeHall_03 | 13.21 | – | 1.99 | **1.96** |
+| LargeHall_04 | 4.01 | 1.12 | **0.57** | 0.92 |
+| LargeHall_05 | 0.56 | 0.51 | 0.45 | **0.33** |
+| Library_01 | **1.68** | – | 5.29 | 3.61 |
+| Library_02 | 11.66 | – | 13.21 | **4.37** |
+| Library_03 | 0.09 | – | 0.09 | **0.06** |
+| Library_04 | 4.86 | – | 3.54 | **3.22** |
+| Library_05 | 4.35 | 13.26 | **3.08** | 4.00 |
+| Library_06 | 0.05 | – | 0.05 | **0.04** |
+| Library_07 | 0.09 | 0.22 | 0.13 | **0.12** |
+| Library_08 | 0.09 | – | 0.09 | **0.06** |
+| Library_09 | 0.09 | – | 0.07 | **0.05** |
+| Lobby_01 | 0.76 | 3.18 | 0.54 | **0.27** |
+| Lounge_01 | 4.51 | – | 0.47 | **0.16** |
+| Office_01 | 5.61 | – | 8.03 | **0.65** |
+| Parking_01 | **10.21** | – | 32.37 | 26.13 |
+| Parking_02 | **0.20** | – | 0.39 | 0.21 |
+| Stairs_01 | 20.20 | – | 4.60 | **2.30** |
+| Stairs_02 | 5.59 | 1.05 | 1.00 | **0.14** |
+| Station_01 | 11.66 | – | 13.21 | **4.37** |
+
+\* calibrated mode · – run terminated with invalid pose update
 
 ---
 
